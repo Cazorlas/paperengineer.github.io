@@ -1,0 +1,33 @@
+@media (max-width: 992px) {
+  #toTopBtn {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    display: flex;
+  }
+
+  .nav-link {
+    width: calc(100% / 2);
+  }
+
+  #job-info .card {
+    width: calc(100% / 2 - 10px);
+  }
+
+  #certificate .certificate-description {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #certificate-description-id-2::before {
+    content: "";
+    width: 1200px;
+    height: 2px;
+    background-color: #d6c08d;
+    position: absolute;
+    top: -24px;
+  }
+}
